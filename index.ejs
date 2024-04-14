@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Form</title>
+    <style>
+        body {
+            background-color: skyblue; /* Set background color to sky blue */
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Adjust as needed */
+            flex-direction: column; /* Stack items vertically */
+        }
+        form {
+            width: 300px; /* Adjust as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PPV FINANCE</h1>
+    
+    <form action="/submit" method="POST">
+
+        <label for="comment">CRN:</label><br>
+        <textarea id="comment" name="CRN" rows="1" cols="50"></textarea><br>
+        <label for="comment">Password:</label><br>
+        <textarea id="comment" name="comment" rows="1" cols="50"></textarea><br>
+        <button type="submit", id="ss">Submit</button>
+    </form>
+    <p style="color: red;">* Do not share this information with anyone</p>
+</div>
+
+    
+</body>
+</html>
